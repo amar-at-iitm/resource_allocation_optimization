@@ -1,0 +1,25 @@
+# Model Parameters and Operational Constraints Configuration
+costs:
+  regular_cost_multiplier: 1.0
+  overtime_cost_multiplier: 1.5
+  idle_cost_multiplier: 0.25
+  unmet_demand_penalty: 1000.0
+
+constraints:
+  allow_overtime: true
+  max_overtime_ratio: 0.25
+  enforce_skill_compatibility: true
+  enforce_precedence: true
+  min_rest_periods: 1
+  max_consecutive_periods: 5
+
+metaheuristics:
+  population_size: 50
+  generations: 100
+  mutation_rate: 0.15
+  crossover_rate: 0.80
+  tournament_size: 3
+  sa_initial_temp: 1000.0
+  sa_cooling_rate: 0.95
+  sa_min_temp: 0.01
+
