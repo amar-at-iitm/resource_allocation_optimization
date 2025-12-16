@@ -1,0 +1,10 @@
+# Solver Configuration for Optimization Models
+solver:
+  name: "highs"
+  time_limit_seconds: 60.0
+  mip_rel_gap: 0.0001
+  mip_abs_gap: 0.000001
+  log_to_console: true
+  presolve: "on"
+  parallel_threads: 4
+
