@@ -1,0 +1,41 @@
+# Experiment Configuration and Test Scenarios
+experiment:
+  name: "multi_period_benchmark"
+  random_seed: 42
+  num_replications: 5
+
+scales:
+  small:
+    n_resources: 10
+    n_tasks: 15
+    n_periods: 7
+    description: "Model validation and constraint verification"
+  medium:
+    n_resources: 50
+    n_tasks: 40
+    n_periods: 30
+    description: "Computational performance evaluation"
+  large:
+    n_resources: 200
+    n_tasks: 100
+    n_periods: 60
+    description: "Exact vs metaheuristic scalability comparison"
+
+scenarios:
+  baseline:
+    demand_multiplier: 1.0
+    disruption_probability: 0.0
+    description: "Scenario A: Normal operations with expected demand"
+  high_demand:
+    demand_multiplier: 1.25
+    disruption_probability: 0.0
+    description: "Scenario B: Surge demand (+25%)"
+  resource_disruption:
+    demand_multiplier: 1.0
+    disruption_probability: 0.20
+    description: "Scenario C: 20% resource availability disruption"
+  combined_disruption:
+    demand_multiplier: 1.25
+    disruption_probability: 0.20
+    description: "Scenario D: Surge demand with 20% resource disruption"
+
