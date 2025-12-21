@@ -1,0 +1,4129 @@
+{
+  "instance_id": "large_benchmark",
+  "periods": 60,
+  "resources": {
+    "R_001": {
+      "id": "R_001",
+      "name": "Resource_1",
+      "skills": [
+        "Engineering",
+        "QualityAssurance",
+        "DevOps"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 138.54,
+      "overtime_cost_per_period": 207.81,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 34.63
+    },
+    "R_002": {
+      "id": "R_002",
+      "name": "Resource_2",
+      "skills": [
+        "QualityAssurance",
+        "Engineering",
+        "Design"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 102.25,
+      "overtime_cost_per_period": 153.37,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 25.56
+    },
+    "R_003": {
+      "id": "R_003",
+      "name": "Resource_3",
+      "skills": [
+        "Design",
+        "Engineering",
+        "DevOps"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 113.28,
+      "overtime_cost_per_period": 169.91,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 28.32
+    },
+    "R_004": {
+      "id": "R_004",
+      "name": "Resource_4",
+      "skills": [
+        "DevOps",
+        "QualityAssurance",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 101.27,
+      "overtime_cost_per_period": 151.91,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 25.32
+    },
+    "R_005": {
+      "id": "R_005",
+      "name": "Resource_5",
+      "skills": [
+        "Operations",
+        "Engineering",
+        "QualityAssurance",
+        "Design"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 82.63,
+      "overtime_cost_per_period": 123.94,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 20.66
+    },
+    "R_006": {
+      "id": "R_006",
+      "name": "Resource_6",
+      "skills": [
+        "Design",
+        "DevOps"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 102.23,
+      "overtime_cost_per_period": 153.34,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 25.56
+    },
+    "R_007": {
+      "id": "R_007",
+      "name": "Resource_7",
+      "skills": [
+        "Design"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 106.23,
+      "overtime_cost_per_period": 159.34,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 26.56
+    },
+    "R_008": {
+      "id": "R_008",
+      "name": "Resource_8",
+      "skills": [
+        "Engineering",
+        "QualityAssurance",
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 97.3,
+      "overtime_cost_per_period": 145.95,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 24.32
+    },
+    "R_009": {
+      "id": "R_009",
+      "name": "Resource_9",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 119.89,
+      "overtime_cost_per_period": 179.84,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 29.97
+    },
+    "R_010": {
+      "id": "R_010",
+      "name": "Resource_10",
+      "skills": [
+        "Engineering",
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 120.1,
+      "overtime_cost_per_period": 180.16,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 30.03
+    },
+    "R_011": {
+      "id": "R_011",
+      "name": "Resource_11",
+      "skills": [
+        "Design"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 113.55,
+      "overtime_cost_per_period": 170.33,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 28.39
+    },
+    "R_012": {
+      "id": "R_012",
+      "name": "Resource_12",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 94.04,
+      "overtime_cost_per_period": 141.05,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 23.51
+    },
+    "R_013": {
+      "id": "R_013",
+      "name": "Resource_13",
+      "skills": [
+        "Design"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 119.86,
+      "overtime_cost_per_period": 179.79,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 29.96
+    },
+    "R_014": {
+      "id": "R_014",
+      "name": "Resource_14",
+      "skills": [
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 107.71,
+      "overtime_cost_per_period": 161.57,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 26.93
+    },
+    "R_015": {
+      "id": "R_015",
+      "name": "Resource_15",
+      "skills": [
+        "DevOps"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 98.09,
+      "overtime_cost_per_period": 147.14,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 24.52
+    },
+    "R_016": {
+      "id": "R_016",
+      "name": "Resource_16",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 134.51,
+      "overtime_cost_per_period": 201.77,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 33.63
+    },
+    "R_017": {
+      "id": "R_017",
+      "name": "Resource_17",
+      "skills": [
+        "Design",
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 96.33,
+      "overtime_cost_per_period": 144.5,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 24.08
+    },
+    "R_018": {
+      "id": "R_018",
+      "name": "Resource_18",
+      "skills": [
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 114.75,
+      "overtime_cost_per_period": 172.13,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 28.69
+    },
+    "R_019": {
+      "id": "R_019",
+      "name": "Resource_19",
+      "skills": [
+        "QualityAssurance",
+        "Design",
+        "DevOps"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 115.05,
+      "overtime_cost_per_period": 172.57,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 28.76
+    },
+    "R_020": {
+      "id": "R_020",
+      "name": "Resource_20",
+      "skills": [
+        "DevOps"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 88.67,
+      "overtime_cost_per_period": 133.01,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 22.17
+    },
+    "R_021": {
+      "id": "R_021",
+      "name": "Resource_21",
+      "skills": [
+        "DevOps"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 100.81,
+      "overtime_cost_per_period": 151.22,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 25.2
+    },
+    "R_022": {
+      "id": "R_022",
+      "name": "Resource_22",
+      "skills": [
+        "Design",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 109.2,
+      "overtime_cost_per_period": 163.8,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 27.3
+    },
+    "R_023": {
+      "id": "R_023",
+      "name": "Resource_23",
+      "skills": [
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 99.89,
+      "overtime_cost_per_period": 149.84,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 24.97
+    },
+    "R_024": {
+      "id": "R_024",
+      "name": "Resource_24",
+      "skills": [
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 113.24,
+      "overtime_cost_per_period": 169.86,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 28.31
+    },
+    "R_025": {
+      "id": "R_025",
+      "name": "Resource_25",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 126.12,
+      "overtime_cost_per_period": 189.18,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 31.53
+    },
+    "R_026": {
+      "id": "R_026",
+      "name": "Resource_26",
+      "skills": [
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 129.79,
+      "overtime_cost_per_period": 194.68,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 32.45
+    },
+    "R_027": {
+      "id": "R_027",
+      "name": "Resource_27",
+      "skills": [
+        "Engineering",
+        "Design"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 95.36,
+      "overtime_cost_per_period": 143.04,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 23.84
+    },
+    "R_028": {
+      "id": "R_028",
+      "name": "Resource_28",
+      "skills": [
+        "Engineering",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 124.92,
+      "overtime_cost_per_period": 187.37,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 31.23
+    },
+    "R_029": {
+      "id": "R_029",
+      "name": "Resource_29",
+      "skills": [
+        "Engineering",
+        "QualityAssurance",
+        "Operations"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 119.7,
+      "overtime_cost_per_period": 179.55,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 29.92
+    },
+    "R_030": {
+      "id": "R_030",
+      "name": "Resource_30",
+      "skills": [
+        "Design",
+        "Operations"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 87.37,
+      "overtime_cost_per_period": 131.05,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 21.84
+    },
+    "R_031": {
+      "id": "R_031",
+      "name": "Resource_31",
+      "skills": [
+        "Engineering",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 91.79,
+      "overtime_cost_per_period": 137.68,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 22.95
+    },
+    "R_032": {
+      "id": "R_032",
+      "name": "Resource_32",
+      "skills": [
+        "QualityAssurance",
+        "Design"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 93.78,
+      "overtime_cost_per_period": 140.67,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 23.44
+    },
+    "R_033": {
+      "id": "R_033",
+      "name": "Resource_33",
+      "skills": [
+        "Engineering"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 91.99,
+      "overtime_cost_per_period": 137.98,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 23.0
+    },
+    "R_034": {
+      "id": "R_034",
+      "name": "Resource_34",
+      "skills": [
+        "Engineering",
+        "QualityAssurance",
+        "Design"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 135.65,
+      "overtime_cost_per_period": 203.48,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 33.91
+    },
+    "R_035": {
+      "id": "R_035",
+      "name": "Resource_35",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 135.49,
+      "overtime_cost_per_period": 203.23,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 33.87
+    },
+    "R_036": {
+      "id": "R_036",
+      "name": "Resource_36",
+      "skills": [
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 137.97,
+      "overtime_cost_per_period": 206.96,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 34.49
+    },
+    "R_037": {
+      "id": "R_037",
+      "name": "Resource_37",
+      "skills": [
+        "QualityAssurance",
+        "Design",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 81.07,
+      "overtime_cost_per_period": 121.61,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 20.27
+    },
+    "R_038": {
+      "id": "R_038",
+      "name": "Resource_38",
+      "skills": [
+        "QualityAssurance",
+        "Design"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 132.06,
+      "overtime_cost_per_period": 198.1,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 33.02
+    },
+    "R_039": {
+      "id": "R_039",
+      "name": "Resource_39",
+      "skills": [
+        "DevOps"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 107.23,
+      "overtime_cost_per_period": 160.85,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 26.81
+    },
+    "R_040": {
+      "id": "R_040",
+      "name": "Resource_40",
+      "skills": [
+        "Design",
+        "DevOps"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 83.99,
+      "overtime_cost_per_period": 125.99,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 21.0
+    },
+    "R_041": {
+      "id": "R_041",
+      "name": "Resource_41",
+      "skills": [
+        "Design"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 89.93,
+      "overtime_cost_per_period": 134.9,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 22.48
+    },
+    "R_042": {
+      "id": "R_042",
+      "name": "Resource_42",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 83.2,
+      "overtime_cost_per_period": 124.8,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 20.8
+    },
+    "R_043": {
+      "id": "R_043",
+      "name": "Resource_43",
+      "skills": [
+        "Engineering"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 131.07,
+      "overtime_cost_per_period": 196.6,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 32.77
+    },
+    "R_044": {
+      "id": "R_044",
+      "name": "Resource_44",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 82.96,
+      "overtime_cost_per_period": 124.43,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 20.74
+    },
+    "R_045": {
+      "id": "R_045",
+      "name": "Resource_45",
+      "skills": [
+        "DevOps"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 135.49,
+      "overtime_cost_per_period": 203.24,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 33.87
+    },
+    "R_046": {
+      "id": "R_046",
+      "name": "Resource_46",
+      "skills": [
+        "QualityAssurance",
+        "Design",
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 118.55,
+      "overtime_cost_per_period": 177.82,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 29.64
+    },
+    "R_047": {
+      "id": "R_047",
+      "name": "Resource_47",
+      "skills": [
+        "Engineering",
+        "Operations"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 107.77,
+      "overtime_cost_per_period": 161.65,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 26.94
+    },
+    "R_048": {
+      "id": "R_048",
+      "name": "Resource_48",
+      "skills": [
+        "Engineering"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 93.95,
+      "overtime_cost_per_period": 140.93,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 23.49
+    },
+    "R_049": {
+      "id": "R_049",
+      "name": "Resource_49",
+      "skills": [
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 136.93,
+      "overtime_cost_per_period": 205.4,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 34.23
+    },
+    "R_050": {
+      "id": "R_050",
+      "name": "Resource_50",
+      "skills": [
+        "Engineering",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 128.26,
+      "overtime_cost_per_period": 192.4,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 32.07
+    },
+    "R_051": {
+      "id": "R_051",
+      "name": "Resource_51",
+      "skills": [
+        "DevOps"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 121.69,
+      "overtime_cost_per_period": 182.53,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 30.42
+    },
+    "R_052": {
+      "id": "R_052",
+      "name": "Resource_52",
+      "skills": [
+        "Engineering",
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 136.16,
+      "overtime_cost_per_period": 204.23,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 34.04
+    },
+    "R_053": {
+      "id": "R_053",
+      "name": "Resource_53",
+      "skills": [
+        "QualityAssurance",
+        "Design",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 127.71,
+      "overtime_cost_per_period": 191.56,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 31.93
+    },
+    "R_054": {
+      "id": "R_054",
+      "name": "Resource_54",
+      "skills": [
+        "Engineering"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 113.9,
+      "overtime_cost_per_period": 170.85,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 28.47
+    },
+    "R_055": {
+      "id": "R_055",
+      "name": "Resource_55",
+      "skills": [
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 109.53,
+      "overtime_cost_per_period": 164.29,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 27.38
+    },
+    "R_056": {
+      "id": "R_056",
+      "name": "Resource_56",
+      "skills": [
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 105.12,
+      "overtime_cost_per_period": 157.67,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 26.28
+    },
+    "R_057": {
+      "id": "R_057",
+      "name": "Resource_57",
+      "skills": [
+        "Engineering",
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 96.23,
+      "overtime_cost_per_period": 144.35,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 24.06
+    },
+    "R_058": {
+      "id": "R_058",
+      "name": "Resource_58",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 103.0,
+      "overtime_cost_per_period": 154.5,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 25.75
+    },
+    "R_059": {
+      "id": "R_059",
+      "name": "Resource_59",
+      "skills": [
+        "Engineering",
+        "Design",
+        "DevOps"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 102.58,
+      "overtime_cost_per_period": 153.87,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 25.65
+    },
+    "R_060": {
+      "id": "R_060",
+      "name": "Resource_60",
+      "skills": [
+        "Engineering",
+        "QualityAssurance",
+        "Design",
+        "Operations"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 87.32,
+      "overtime_cost_per_period": 130.97,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 21.83
+    },
+    "R_061": {
+      "id": "R_061",
+      "name": "Resource_61",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 97.72,
+      "overtime_cost_per_period": 146.58,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 24.43
+    },
+    "R_062": {
+      "id": "R_062",
+      "name": "Resource_62",
+      "skills": [
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 139.82,
+      "overtime_cost_per_period": 209.73,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 34.96
+    },
+    "R_063": {
+      "id": "R_063",
+      "name": "Resource_63",
+      "skills": [
+        "Engineering",
+        "Design",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 119.94,
+      "overtime_cost_per_period": 179.91,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 29.99
+    },
+    "R_064": {
+      "id": "R_064",
+      "name": "Resource_64",
+      "skills": [
+        "Design"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 126.61,
+      "overtime_cost_per_period": 189.91,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 31.65
+    },
+    "R_065": {
+      "id": "R_065",
+      "name": "Resource_65",
+      "skills": [
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 83.1,
+      "overtime_cost_per_period": 124.65,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 20.77
+    },
+    "R_066": {
+      "id": "R_066",
+      "name": "Resource_66",
+      "skills": [
+        "QualityAssurance",
+        "DevOps"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 135.67,
+      "overtime_cost_per_period": 203.5,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 33.92
+    },
+    "R_067": {
+      "id": "R_067",
+      "name": "Resource_67",
+      "skills": [
+        "Engineering",
+        "Design"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 87.5,
+      "overtime_cost_per_period": 131.24,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 21.87
+    },
+    "R_068": {
+      "id": "R_068",
+      "name": "Resource_68",
+      "skills": [
+        "QualityAssurance",
+        "DevOps"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 91.58,
+      "overtime_cost_per_period": 137.37,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 22.9
+    },
+    "R_069": {
+      "id": "R_069",
+      "name": "Resource_69",
+      "skills": [
+        "QualityAssurance",
+        "Design"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 116.98,
+      "overtime_cost_per_period": 175.47,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 29.24
+    },
+    "R_070": {
+      "id": "R_070",
+      "name": "Resource_70",
+      "skills": [
+        "QualityAssurance",
+        "Design"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 138.8,
+      "overtime_cost_per_period": 208.2,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 34.7
+    },
+    "R_071": {
+      "id": "R_071",
+      "name": "Resource_71",
+      "skills": [
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 136.76,
+      "overtime_cost_per_period": 205.14,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 34.19
+    },
+    "R_072": {
+      "id": "R_072",
+      "name": "Resource_72",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 110.5,
+      "overtime_cost_per_period": 165.75,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 27.63
+    },
+    "R_073": {
+      "id": "R_073",
+      "name": "Resource_73",
+      "skills": [
+        "Engineering"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 105.67,
+      "overtime_cost_per_period": 158.51,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 26.42
+    },
+    "R_074": {
+      "id": "R_074",
+      "name": "Resource_74",
+      "skills": [
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 99.02,
+      "overtime_cost_per_period": 148.53,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 24.76
+    },
+    "R_075": {
+      "id": "R_075",
+      "name": "Resource_75",
+      "skills": [
+        "Design"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 122.12,
+      "overtime_cost_per_period": 183.18,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 30.53
+    },
+    "R_076": {
+      "id": "R_076",
+      "name": "Resource_76",
+      "skills": [
+        "DevOps"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 105.89,
+      "overtime_cost_per_period": 158.83,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 26.47
+    },
+    "R_077": {
+      "id": "R_077",
+      "name": "Resource_77",
+      "skills": [
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 110.22,
+      "overtime_cost_per_period": 165.33,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 27.55
+    },
+    "R_078": {
+      "id": "R_078",
+      "name": "Resource_78",
+      "skills": [
+        "QualityAssurance",
+        "DevOps"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 86.95,
+      "overtime_cost_per_period": 130.43,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 21.74
+    },
+    "R_079": {
+      "id": "R_079",
+      "name": "Resource_79",
+      "skills": [
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 98.83,
+      "overtime_cost_per_period": 148.25,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 24.71
+    },
+    "R_080": {
+      "id": "R_080",
+      "name": "Resource_80",
+      "skills": [
+        "Engineering",
+        "Design",
+        "DevOps"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 89.22,
+      "overtime_cost_per_period": 133.83,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 22.3
+    },
+    "R_081": {
+      "id": "R_081",
+      "name": "Resource_81",
+      "skills": [
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 98.66,
+      "overtime_cost_per_period": 147.99,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 24.66
+    },
+    "R_082": {
+      "id": "R_082",
+      "name": "Resource_82",
+      "skills": [
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 92.54,
+      "overtime_cost_per_period": 138.82,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 23.14
+    },
+    "R_083": {
+      "id": "R_083",
+      "name": "Resource_83",
+      "skills": [
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 130.34,
+      "overtime_cost_per_period": 195.52,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 32.59
+    },
+    "R_084": {
+      "id": "R_084",
+      "name": "Resource_84",
+      "skills": [
+        "Engineering"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 125.32,
+      "overtime_cost_per_period": 187.98,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 31.33
+    },
+    "R_085": {
+      "id": "R_085",
+      "name": "Resource_85",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 93.97,
+      "overtime_cost_per_period": 140.96,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 23.49
+    },
+    "R_086": {
+      "id": "R_086",
+      "name": "Resource_86",
+      "skills": [
+        "Engineering"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 130.62,
+      "overtime_cost_per_period": 195.92,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 32.65
+    },
+    "R_087": {
+      "id": "R_087",
+      "name": "Resource_87",
+      "skills": [
+        "DevOps"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 102.0,
+      "overtime_cost_per_period": 152.99,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 25.5
+    },
+    "R_088": {
+      "id": "R_088",
+      "name": "Resource_88",
+      "skills": [
+        "Design",
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 110.29,
+      "overtime_cost_per_period": 165.43,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 27.57
+    },
+    "R_089": {
+      "id": "R_089",
+      "name": "Resource_89",
+      "skills": [
+        "Engineering",
+        "Design"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 111.88,
+      "overtime_cost_per_period": 167.83,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 27.97
+    },
+    "R_090": {
+      "id": "R_090",
+      "name": "Resource_90",
+      "skills": [
+        "Design"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 91.5,
+      "overtime_cost_per_period": 137.24,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 22.87
+    },
+    "R_091": {
+      "id": "R_091",
+      "name": "Resource_91",
+      "skills": [
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 80.44,
+      "overtime_cost_per_period": 120.66,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 20.11
+    },
+    "R_092": {
+      "id": "R_092",
+      "name": "Resource_92",
+      "skills": [
+        "QualityAssurance",
+        "DevOps"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 125.69,
+      "overtime_cost_per_period": 188.53,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 31.42
+    },
+    "R_093": {
+      "id": "R_093",
+      "name": "Resource_93",
+      "skills": [
+        "Engineering",
+        "QualityAssurance",
+        "Design",
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 86.85,
+      "overtime_cost_per_period": 130.27,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 21.71
+    },
+    "R_094": {
+      "id": "R_094",
+      "name": "Resource_94",
+      "skills": [
+        "Engineering",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 97.29,
+      "overtime_cost_per_period": 145.94,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 24.32
+    },
+    "R_095": {
+      "id": "R_095",
+      "name": "Resource_95",
+      "skills": [
+        "Engineering",
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 126.64,
+      "overtime_cost_per_period": 189.96,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 31.66
+    },
+    "R_096": {
+      "id": "R_096",
+      "name": "Resource_96",
+      "skills": [
+        "QualityAssurance",
+        "DevOps"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 85.09,
+      "overtime_cost_per_period": 127.63,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 21.27
+    },
+    "R_097": {
+      "id": "R_097",
+      "name": "Resource_97",
+      "skills": [
+        "QualityAssurance",
+        "Design",
+        "DevOps"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 102.36,
+      "overtime_cost_per_period": 153.54,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 25.59
+    },
+    "R_098": {
+      "id": "R_098",
+      "name": "Resource_98",
+      "skills": [
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 124.37,
+      "overtime_cost_per_period": 186.55,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 31.09
+    },
+    "R_099": {
+      "id": "R_099",
+      "name": "Resource_99",
+      "skills": [
+        "Engineering",
+        "Operations"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 80.27,
+      "overtime_cost_per_period": 120.41,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 20.07
+    },
+    "R_100": {
+      "id": "R_100",
+      "name": "Resource_100",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 94.26,
+      "overtime_cost_per_period": 141.39,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 23.56
+    },
+    "R_101": {
+      "id": "R_101",
+      "name": "Resource_101",
+      "skills": [
+        "Engineering",
+        "Design"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 103.82,
+      "overtime_cost_per_period": 155.72,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 25.95
+    },
+    "R_102": {
+      "id": "R_102",
+      "name": "Resource_102",
+      "skills": [
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 128.45,
+      "overtime_cost_per_period": 192.67,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 32.11
+    },
+    "R_103": {
+      "id": "R_103",
+      "name": "Resource_103",
+      "skills": [
+        "Engineering"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 139.85,
+      "overtime_cost_per_period": 209.78,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 34.96
+    },
+    "R_104": {
+      "id": "R_104",
+      "name": "Resource_104",
+      "skills": [
+        "Engineering",
+        "DevOps"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 101.92,
+      "overtime_cost_per_period": 152.88,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 25.48
+    },
+    "R_105": {
+      "id": "R_105",
+      "name": "Resource_105",
+      "skills": [
+        "Engineering"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 105.22,
+      "overtime_cost_per_period": 157.83,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 26.31
+    },
+    "R_106": {
+      "id": "R_106",
+      "name": "Resource_106",
+      "skills": [
+        "Engineering",
+        "QualityAssurance",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 94.11,
+      "overtime_cost_per_period": 141.16,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 23.53
+    },
+    "R_107": {
+      "id": "R_107",
+      "name": "Resource_107",
+      "skills": [
+        "QualityAssurance",
+        "DevOps"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 97.96,
+      "overtime_cost_per_period": 146.94,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 24.49
+    },
+    "R_108": {
+      "id": "R_108",
+      "name": "Resource_108",
+      "skills": [
+        "DevOps"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 113.69,
+      "overtime_cost_per_period": 170.53,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 28.42
+    },
+    "R_109": {
+      "id": "R_109",
+      "name": "Resource_109",
+      "skills": [
+        "Engineering",
+        "QualityAssurance",
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 128.88,
+      "overtime_cost_per_period": 193.32,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 32.22
+    },
+    "R_110": {
+      "id": "R_110",
+      "name": "Resource_110",
+      "skills": [
+        "Engineering",
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 119.18,
+      "overtime_cost_per_period": 178.76,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 29.79
+    },
+    "R_111": {
+      "id": "R_111",
+      "name": "Resource_111",
+      "skills": [
+        "Engineering",
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 82.46,
+      "overtime_cost_per_period": 123.7,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 20.62
+    },
+    "R_112": {
+      "id": "R_112",
+      "name": "Resource_112",
+      "skills": [
+        "Engineering"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 86.7,
+      "overtime_cost_per_period": 130.04,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 21.67
+    },
+    "R_113": {
+      "id": "R_113",
+      "name": "Resource_113",
+      "skills": [
+        "Engineering"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 105.0,
+      "overtime_cost_per_period": 157.49,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 26.25
+    },
+    "R_114": {
+      "id": "R_114",
+      "name": "Resource_114",
+      "skills": [
+        "Design"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 109.37,
+      "overtime_cost_per_period": 164.06,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 27.34
+    },
+    "R_115": {
+      "id": "R_115",
+      "name": "Resource_115",
+      "skills": [
+        "Design",
+        "DevOps"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 94.55,
+      "overtime_cost_per_period": 141.82,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 23.64
+    },
+    "R_116": {
+      "id": "R_116",
+      "name": "Resource_116",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 82.91,
+      "overtime_cost_per_period": 124.37,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 20.73
+    },
+    "R_117": {
+      "id": "R_117",
+      "name": "Resource_117",
+      "skills": [
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 80.56,
+      "overtime_cost_per_period": 120.83,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 20.14
+    },
+    "R_118": {
+      "id": "R_118",
+      "name": "Resource_118",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 115.41,
+      "overtime_cost_per_period": 173.12,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 28.85
+    },
+    "R_119": {
+      "id": "R_119",
+      "name": "Resource_119",
+      "skills": [
+        "Engineering",
+        "Design"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 126.38,
+      "overtime_cost_per_period": 189.56,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 31.59
+    },
+    "R_120": {
+      "id": "R_120",
+      "name": "Resource_120",
+      "skills": [
+        "Engineering",
+        "Design"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 101.69,
+      "overtime_cost_per_period": 152.54,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 25.42
+    },
+    "R_121": {
+      "id": "R_121",
+      "name": "Resource_121",
+      "skills": [
+        "Engineering",
+        "Design"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 104.84,
+      "overtime_cost_per_period": 157.26,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 26.21
+    },
+    "R_122": {
+      "id": "R_122",
+      "name": "Resource_122",
+      "skills": [
+        "DevOps"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 123.51,
+      "overtime_cost_per_period": 185.27,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 30.88
+    },
+    "R_123": {
+      "id": "R_123",
+      "name": "Resource_123",
+      "skills": [
+        "Engineering",
+        "QualityAssurance",
+        "DevOps"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 88.62,
+      "overtime_cost_per_period": 132.93,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 22.16
+    },
+    "R_124": {
+      "id": "R_124",
+      "name": "Resource_124",
+      "skills": [
+        "DevOps"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 80.99,
+      "overtime_cost_per_period": 121.49,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 20.25
+    },
+    "R_125": {
+      "id": "R_125",
+      "name": "Resource_125",
+      "skills": [
+        "Engineering",
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 117.31,
+      "overtime_cost_per_period": 175.96,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 29.33
+    },
+    "R_126": {
+      "id": "R_126",
+      "name": "Resource_126",
+      "skills": [
+        "Design"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 81.09,
+      "overtime_cost_per_period": 121.63,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 20.27
+    },
+    "R_127": {
+      "id": "R_127",
+      "name": "Resource_127",
+      "skills": [
+        "Design"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 113.21,
+      "overtime_cost_per_period": 169.82,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 28.3
+    },
+    "R_128": {
+      "id": "R_128",
+      "name": "Resource_128",
+      "skills": [
+        "Design",
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 105.16,
+      "overtime_cost_per_period": 157.73,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 26.29
+    },
+    "R_129": {
+      "id": "R_129",
+      "name": "Resource_129",
+      "skills": [
+        "Design"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 85.64,
+      "overtime_cost_per_period": 128.47,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 21.41
+    },
+    "R_130": {
+      "id": "R_130",
+      "name": "Resource_130",
+      "skills": [
+        "Engineering",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 91.97,
+      "overtime_cost_per_period": 137.96,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 22.99
+    },
+    "R_131": {
+      "id": "R_131",
+      "name": "Resource_131",
+      "skills": [
+        "Engineering",
+        "QualityAssurance",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 132.7,
+      "overtime_cost_per_period": 199.05,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 33.18
+    },
+    "R_132": {
+      "id": "R_132",
+      "name": "Resource_132",
+      "skills": [
+        "Design",
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 86.28,
+      "overtime_cost_per_period": 129.42,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 21.57
+    },
+    "R_133": {
+      "id": "R_133",
+      "name": "Resource_133",
+      "skills": [
+        "Engineering",
+        "QualityAssurance",
+        "Design"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 124.62,
+      "overtime_cost_per_period": 186.92,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 31.15
+    },
+    "R_134": {
+      "id": "R_134",
+      "name": "Resource_134",
+      "skills": [
+        "QualityAssurance",
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 99.15,
+      "overtime_cost_per_period": 148.72,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 24.79
+    },
+    "R_135": {
+      "id": "R_135",
+      "name": "Resource_135",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 108.06,
+      "overtime_cost_per_period": 162.09,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 27.01
+    },
+    "R_136": {
+      "id": "R_136",
+      "name": "Resource_136",
+      "skills": [
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 100.37,
+      "overtime_cost_per_period": 150.55,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 25.09
+    },
+    "R_137": {
+      "id": "R_137",
+      "name": "Resource_137",
+      "skills": [
+        "Engineering",
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 92.13,
+      "overtime_cost_per_period": 138.19,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 23.03
+    },
+    "R_138": {
+      "id": "R_138",
+      "name": "Resource_138",
+      "skills": [
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 137.56,
+      "overtime_cost_per_period": 206.34,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 34.39
+    },
+    "R_139": {
+      "id": "R_139",
+      "name": "Resource_139",
+      "skills": [
+        "Design"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 132.6,
+      "overtime_cost_per_period": 198.9,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 33.15
+    },
+    "R_140": {
+      "id": "R_140",
+      "name": "Resource_140",
+      "skills": [
+        "Engineering",
+        "QualityAssurance",
+        "Design",
+        "DevOps"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 88.27,
+      "overtime_cost_per_period": 132.4,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 22.07
+    },
+    "R_141": {
+      "id": "R_141",
+      "name": "Resource_141",
+      "skills": [
+        "DevOps"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 89.92,
+      "overtime_cost_per_period": 134.88,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 22.48
+    },
+    "R_142": {
+      "id": "R_142",
+      "name": "Resource_142",
+      "skills": [
+        "Design",
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 97.76,
+      "overtime_cost_per_period": 146.64,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 24.44
+    },
+    "R_143": {
+      "id": "R_143",
+      "name": "Resource_143",
+      "skills": [
+        "Design",
+        "DevOps"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 87.24,
+      "overtime_cost_per_period": 130.86,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 21.81
+    },
+    "R_144": {
+      "id": "R_144",
+      "name": "Resource_144",
+      "skills": [
+        "Engineering",
+        "DevOps"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 104.81,
+      "overtime_cost_per_period": 157.22,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 26.2
+    },
+    "R_145": {
+      "id": "R_145",
+      "name": "Resource_145",
+      "skills": [
+        "Design",
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 111.85,
+      "overtime_cost_per_period": 167.78,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 27.96
+    },
+    "R_146": {
+      "id": "R_146",
+      "name": "Resource_146",
+      "skills": [
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 126.64,
+      "overtime_cost_per_period": 189.96,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 31.66
+    },
+    "R_147": {
+      "id": "R_147",
+      "name": "Resource_147",
+      "skills": [
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 87.54,
+      "overtime_cost_per_period": 131.31,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 21.88
+    },
+    "R_148": {
+      "id": "R_148",
+      "name": "Resource_148",
+      "skills": [
+        "Engineering",
+        "Design"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 95.19,
+      "overtime_cost_per_period": 142.79,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 23.8
+    },
+    "R_149": {
+      "id": "R_149",
+      "name": "Resource_149",
+      "skills": [
+        "Design"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 107.9,
+      "overtime_cost_per_period": 161.85,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 26.98
+    },
+    "R_150": {
+      "id": "R_150",
+      "name": "Resource_150",
+      "skills": [
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 108.13,
+      "overtime_cost_per_period": 162.19,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 27.03
+    },
+    "R_151": {
+      "id": "R_151",
+      "name": "Resource_151",
+      "skills": [
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 127.67,
+      "overtime_cost_per_period": 191.5,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 31.92
+    },
+    "R_152": {
+      "id": "R_152",
+      "name": "Resource_152",
+      "skills": [
+        "QualityAssurance",
+        "Design",
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 118.34,
+      "overtime_cost_per_period": 177.51,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 29.59
+    },
+    "R_153": {
+      "id": "R_153",
+      "name": "Resource_153",
+      "skills": [
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 87.74,
+      "overtime_cost_per_period": 131.61,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 21.94
+    },
+    "R_154": {
+      "id": "R_154",
+      "name": "Resource_154",
+      "skills": [
+        "DevOps"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 107.67,
+      "overtime_cost_per_period": 161.5,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 26.92
+    },
+    "R_155": {
+      "id": "R_155",
+      "name": "Resource_155",
+      "skills": [
+        "DevOps"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 90.63,
+      "overtime_cost_per_period": 135.95,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 22.66
+    },
+    "R_156": {
+      "id": "R_156",
+      "name": "Resource_156",
+      "skills": [
+        "QualityAssurance",
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 139.51,
+      "overtime_cost_per_period": 209.26,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 34.88
+    },
+    "R_157": {
+      "id": "R_157",
+      "name": "Resource_157",
+      "skills": [
+        "DevOps"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 124.31,
+      "overtime_cost_per_period": 186.47,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 31.08
+    },
+    "R_158": {
+      "id": "R_158",
+      "name": "Resource_158",
+      "skills": [
+        "Design",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 118.82,
+      "overtime_cost_per_period": 178.24,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 29.71
+    },
+    "R_159": {
+      "id": "R_159",
+      "name": "Resource_159",
+      "skills": [
+        "Design"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 119.33,
+      "overtime_cost_per_period": 179.0,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 29.83
+    },
+    "R_160": {
+      "id": "R_160",
+      "name": "Resource_160",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 131.64,
+      "overtime_cost_per_period": 197.46,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 32.91
+    },
+    "R_161": {
+      "id": "R_161",
+      "name": "Resource_161",
+      "skills": [
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 120.48,
+      "overtime_cost_per_period": 180.73,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 30.12
+    },
+    "R_162": {
+      "id": "R_162",
+      "name": "Resource_162",
+      "skills": [
+        "Engineering",
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 95.31,
+      "overtime_cost_per_period": 142.96,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 23.83
+    },
+    "R_163": {
+      "id": "R_163",
+      "name": "Resource_163",
+      "skills": [
+        "Design"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 81.39,
+      "overtime_cost_per_period": 122.09,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 20.35
+    },
+    "R_164": {
+      "id": "R_164",
+      "name": "Resource_164",
+      "skills": [
+        "QualityAssurance",
+        "Operations"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 99.33,
+      "overtime_cost_per_period": 149.0,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 24.83
+    },
+    "R_165": {
+      "id": "R_165",
+      "name": "Resource_165",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 135.43,
+      "overtime_cost_per_period": 203.15,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 33.86
+    },
+    "R_166": {
+      "id": "R_166",
+      "name": "Resource_166",
+      "skills": [
+        "Engineering",
+        "QualityAssurance",
+        "Design",
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 108.84,
+      "overtime_cost_per_period": 163.25,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 27.21
+    },
+    "R_167": {
+      "id": "R_167",
+      "name": "Resource_167",
+      "skills": [
+        "Design"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 104.6,
+      "overtime_cost_per_period": 156.9,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 26.15
+    },
+    "R_168": {
+      "id": "R_168",
+      "name": "Resource_168",
+      "skills": [
+        "QualityAssurance",
+        "Design"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 127.85,
+      "overtime_cost_per_period": 191.78,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 31.96
+    },
+    "R_169": {
+      "id": "R_169",
+      "name": "Resource_169",
+      "skills": [
+        "Engineering",
+        "Design"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 139.92,
+      "overtime_cost_per_period": 209.87,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 34.98
+    },
+    "R_170": {
+      "id": "R_170",
+      "name": "Resource_170",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 84.18,
+      "overtime_cost_per_period": 126.27,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 21.04
+    },
+    "R_171": {
+      "id": "R_171",
+      "name": "Resource_171",
+      "skills": [
+        "QualityAssurance",
+        "DevOps"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 86.71,
+      "overtime_cost_per_period": 130.07,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 21.68
+    },
+    "R_172": {
+      "id": "R_172",
+      "name": "Resource_172",
+      "skills": [
+        "Engineering"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 119.16,
+      "overtime_cost_per_period": 178.74,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 29.79
+    },
+    "R_173": {
+      "id": "R_173",
+      "name": "Resource_173",
+      "skills": [
+        "Engineering",
+        "QualityAssurance",
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 138.6,
+      "overtime_cost_per_period": 207.9,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 34.65
+    },
+    "R_174": {
+      "id": "R_174",
+      "name": "Resource_174",
+      "skills": [
+        "DevOps"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 127.25,
+      "overtime_cost_per_period": 190.87,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 31.81
+    },
+    "R_175": {
+      "id": "R_175",
+      "name": "Resource_175",
+      "skills": [
+        "Engineering",
+        "QualityAssurance",
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 109.48,
+      "overtime_cost_per_period": 164.21,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 27.37
+    },
+    "R_176": {
+      "id": "R_176",
+      "name": "Resource_176",
+      "skills": [
+        "Engineering",
+        "Design"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 112.03,
+      "overtime_cost_per_period": 168.05,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 28.01
+    },
+    "R_177": {
+      "id": "R_177",
+      "name": "Resource_177",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 119.14,
+      "overtime_cost_per_period": 178.7,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 29.78
+    },
+    "R_178": {
+      "id": "R_178",
+      "name": "Resource_178",
+      "skills": [
+        "Engineering",
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 112.34,
+      "overtime_cost_per_period": 168.5,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 28.08
+    },
+    "R_179": {
+      "id": "R_179",
+      "name": "Resource_179",
+      "skills": [
+        "Engineering",
+        "DevOps"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 110.25,
+      "overtime_cost_per_period": 165.38,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 27.56
+    },
+    "R_180": {
+      "id": "R_180",
+      "name": "Resource_180",
+      "skills": [
+        "Engineering"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 125.09,
+      "overtime_cost_per_period": 187.63,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 31.27
+    },
+    "R_181": {
+      "id": "R_181",
+      "name": "Resource_181",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 139.42,
+      "overtime_cost_per_period": 209.13,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 34.86
+    },
+    "R_182": {
+      "id": "R_182",
+      "name": "Resource_182",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 138.54,
+      "overtime_cost_per_period": 207.8,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 34.63
+    },
+    "R_183": {
+      "id": "R_183",
+      "name": "Resource_183",
+      "skills": [
+        "Engineering"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 113.99,
+      "overtime_cost_per_period": 170.98,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 28.5
+    },
+    "R_184": {
+      "id": "R_184",
+      "name": "Resource_184",
+      "skills": [
+        "QualityAssurance",
+        "Design"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 116.09,
+      "overtime_cost_per_period": 174.14,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 29.02
+    },
+    "R_185": {
+      "id": "R_185",
+      "name": "Resource_185",
+      "skills": [
+        "DevOps",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 103.12,
+      "overtime_cost_per_period": 154.68,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 25.78
+    },
+    "R_186": {
+      "id": "R_186",
+      "name": "Resource_186",
+      "skills": [
+        "Design"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 80.06,
+      "overtime_cost_per_period": 120.1,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 20.02
+    },
+    "R_187": {
+      "id": "R_187",
+      "name": "Resource_187",
+      "skills": [
+        "QualityAssurance",
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 108.2,
+      "overtime_cost_per_period": 162.3,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 27.05
+    },
+    "R_188": {
+      "id": "R_188",
+      "name": "Resource_188",
+      "skills": [
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 120.77,
+      "overtime_cost_per_period": 181.16,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 30.19
+    },
+    "R_189": {
+      "id": "R_189",
+      "name": "Resource_189",
+      "skills": [
+        "Engineering"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 131.62,
+      "overtime_cost_per_period": 197.43,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 32.9
+    },
+    "R_190": {
+      "id": "R_190",
+      "name": "Resource_190",
+      "skills": [
+        "Engineering"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 92.32,
+      "overtime_cost_per_period": 138.49,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 23.08
+    },
+    "R_191": {
+      "id": "R_191",
+      "name": "Resource_191",
+      "skills": [
+        "Engineering",
+        "QualityAssurance"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 117.17,
+      "overtime_cost_per_period": 175.76,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 29.29
+    },
+    "R_192": {
+      "id": "R_192",
+      "name": "Resource_192",
+      "skills": [
+        "QualityAssurance",
+        "Design",
+        "DevOps"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 82.65,
+      "overtime_cost_per_period": 123.98,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 20.66
+    },
+    "R_193": {
+      "id": "R_193",
+      "name": "Resource_193",
+      "skills": [
+        "Design",
+        "Operations"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 90.22,
+      "overtime_cost_per_period": 135.33,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 22.56
+    },
+    "R_194": {
+      "id": "R_194",
+      "name": "Resource_194",
+      "skills": [
+        "Engineering",
+        "DevOps"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 115.09,
+      "overtime_cost_per_period": 172.63,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 28.77
+    },
+    "R_195": {
+      "id": "R_195",
+      "name": "Resource_195",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 115.36,
+      "overtime_cost_per_period": 173.04,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 28.84
+    },
+    "R_196": {
+      "id": "R_196",
+      "name": "Resource_196",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 103.49,
+      "overtime_cost_per_period": 155.23,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 25.87
+    },
+    "R_197": {
+      "id": "R_197",
+      "name": "Resource_197",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 8.0,
+      "regular_cost_per_period": 99.24,
+      "overtime_cost_per_period": 148.86,
+      "max_overtime_per_period": 2.0,
+      "idle_cost_per_period": 24.81
+    },
+    "R_198": {
+      "id": "R_198",
+      "name": "Resource_198",
+      "skills": [
+        "Operations"
+      ],
+      "capacity_per_period": 7.5,
+      "regular_cost_per_period": 103.35,
+      "overtime_cost_per_period": 155.02,
+      "max_overtime_per_period": 1.88,
+      "idle_cost_per_period": 25.84
+    },
+    "R_199": {
+      "id": "R_199",
+      "name": "Resource_199",
+      "skills": [
+        "Design",
+        "Operations"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 115.84,
+      "overtime_cost_per_period": 173.77,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 28.96
+    },
+    "R_200": {
+      "id": "R_200",
+      "name": "Resource_200",
+      "skills": [
+        "Design",
+        "Operations"
+      ],
+      "capacity_per_period": 8.5,
+      "regular_cost_per_period": 114.74,
+      "overtime_cost_per_period": 172.11,
+      "max_overtime_per_period": 2.12,
+      "idle_cost_per_period": 28.68
+    }
+  },
+  "tasks": {
+    "T_001": {
+      "id": "T_001",
+      "name": "Task_1",
+      "required_skill": "Operations",
+      "duration": 1,
+      "resource_demand": 1.12,
+      "priority": 5.0,
+      "unmet_penalty": 2344.0,
+      "predecessors": [],
+      "release_date": 10,
+      "due_date": 16
+    },
+    "T_002": {
+      "id": "T_002",
+      "name": "Task_2",
+      "required_skill": "Engineering",
+      "duration": 2,
+      "resource_demand": 3.56,
+      "priority": 4.0,
+      "unmet_penalty": 1795.7,
+      "predecessors": [],
+      "release_date": 6,
+      "due_date": 9
+    },
+    "T_003": {
+      "id": "T_003",
+      "name": "Task_3",
+      "required_skill": "Design",
+      "duration": 4,
+      "resource_demand": 1.99,
+      "priority": 5.0,
+      "unmet_penalty": 2059.59,
+      "predecessors": [],
+      "release_date": 13,
+      "due_date": 57
+    },
+    "T_004": {
+      "id": "T_004",
+      "name": "Task_4",
+      "required_skill": "Engineering",
+      "duration": 2,
+      "resource_demand": 2.49,
+      "priority": 4.0,
+      "unmet_penalty": 1843.79,
+      "predecessors": [],
+      "release_date": 12,
+      "due_date": 26
+    },
+    "T_005": {
+      "id": "T_005",
+      "name": "Task_5",
+      "required_skill": "Operations",
+      "duration": 3,
+      "resource_demand": 3.63,
+      "priority": 3.0,
+      "unmet_penalty": 991.0,
+      "predecessors": [],
+      "release_date": 5,
+      "due_date": 52
+    },
+    "T_006": {
+      "id": "T_006",
+      "name": "Task_6",
+      "required_skill": "DevOps",
+      "duration": 4,
+      "resource_demand": 2.11,
+      "priority": 3.0,
+      "unmet_penalty": 1275.86,
+      "predecessors": [
+        "T_001"
+      ],
+      "release_date": 10,
+      "due_date": 60
+    },
+    "T_007": {
+      "id": "T_007",
+      "name": "Task_7",
+      "required_skill": "Engineering",
+      "duration": 1,
+      "resource_demand": 2.56,
+      "priority": 3.0,
+      "unmet_penalty": 1521.11,
+      "predecessors": [
+        "T_001",
+        "T_005"
+      ],
+      "release_date": 6,
+      "due_date": 60
+    },
+    "T_008": {
+      "id": "T_008",
+      "name": "Task_8",
+      "required_skill": "Design",
+      "duration": 4,
+      "resource_demand": 1.42,
+      "priority": 2.0,
+      "unmet_penalty": 713.08,
+      "predecessors": [
+        "T_002",
+        "T_007"
+      ],
+      "release_date": 8,
+      "due_date": 51
+    },
+    "T_009": {
+      "id": "T_009",
+      "name": "Task_9",
+      "required_skill": "Operations",
+      "duration": 4,
+      "resource_demand": 2.9,
+      "priority": 2.0,
+      "unmet_penalty": 858.65,
+      "predecessors": [
+        "T_001",
+        "T_005"
+      ],
+      "release_date": 6,
+      "due_date": 33
+    },
+    "T_010": {
+      "id": "T_010",
+      "name": "Task_10",
+      "required_skill": "Engineering",
+      "duration": 2,
+      "resource_demand": 3.51,
+      "priority": 5.0,
+      "unmet_penalty": 1676.26,
+      "predecessors": [
+        "T_001",
+        "T_003",
+        "T_009"
+      ],
+      "release_date": 2,
+      "due_date": 60
+    },
+    "T_011": {
+      "id": "T_011",
+      "name": "Task_11",
+      "required_skill": "QualityAssurance",
+      "duration": 2,
+      "resource_demand": 1.57,
+      "priority": 3.0,
+      "unmet_penalty": 1767.94,
+      "predecessors": [
+        "T_001",
+        "T_008"
+      ],
+      "release_date": 4,
+      "due_date": 29
+    },
+    "T_012": {
+      "id": "T_012",
+      "name": "Task_12",
+      "required_skill": "Design",
+      "duration": 4,
+      "resource_demand": 3.92,
+      "priority": 5.0,
+      "unmet_penalty": 2557.26,
+      "predecessors": [
+        "T_006",
+        "T_007"
+      ],
+      "release_date": 1,
+      "due_date": 8
+    },
+    "T_013": {
+      "id": "T_013",
+      "name": "Task_13",
+      "required_skill": "QualityAssurance",
+      "duration": 1,
+      "resource_demand": 1.62,
+      "priority": 2.0,
+      "unmet_penalty": 731.22,
+      "predecessors": [
+        "T_006",
+        "T_007",
+        "T_008"
+      ],
+      "release_date": 14,
+      "due_date": 60
+    },
+    "T_014": {
+      "id": "T_014",
+      "name": "Task_14",
+      "required_skill": "QualityAssurance",
+      "duration": 3,
+      "resource_demand": 2.85,
+      "priority": 5.0,
+      "unmet_penalty": 2796.21,
+      "predecessors": [
+        "T_003",
+        "T_010"
+      ],
+      "release_date": 2,
+      "due_date": 31
+    },
+    "T_015": {
+      "id": "T_015",
+      "name": "Task_15",
+      "required_skill": "Operations",
+      "duration": 1,
+      "resource_demand": 3.17,
+      "priority": 5.0,
+      "unmet_penalty": 2905.0,
+      "predecessors": [
+        "T_001",
+        "T_002",
+        "T_011"
+      ],
+      "release_date": 2,
+      "due_date": 40
+    },
+    "T_016": {
+      "id": "T_016",
+      "name": "Task_16",
+      "required_skill": "Engineering",
+      "duration": 3,
+      "resource_demand": 2.41,
+      "priority": 5.0,
+      "unmet_penalty": 2845.13,
+      "predecessors": [
+        "T_002"
+      ],
+      "release_date": 9,
+      "due_date": 60
+    },
+    "T_017": {
+      "id": "T_017",
+      "name": "Task_17",
+      "required_skill": "QualityAssurance",
+      "duration": 3,
+      "resource_demand": 3.21,
+      "priority": 3.0,
+      "unmet_penalty": 1093.95,
+      "predecessors": [
+        "T_008",
+        "T_010",
+        "T_011"
+      ],
+      "release_date": 6,
+      "due_date": 59
+    },
+    "T_018": {
+      "id": "T_018",
+      "name": "Task_18",
+      "required_skill": "Engineering",
+      "duration": 4,
+      "resource_demand": 2.44,
+      "priority": 2.0,
+      "unmet_penalty": 688.46,
+      "predecessors": [
+        "T_003",
+        "T_006",
+        "T_015"
+      ],
+      "release_date": 10,
+      "due_date": 29
+    },
+    "T_019": {
+      "id": "T_019",
+      "name": "Task_19",
+      "required_skill": "Operations",
+      "duration": 4,
+      "resource_demand": 1.94,
+      "priority": 1.0,
+      "unmet_penalty": 339.27,
+      "predecessors": [
+        "T_016",
+        "T_017"
+      ],
+      "release_date": 4,
+      "due_date": 36
+    },
+    "T_020": {
+      "id": "T_020",
+      "name": "Task_20",
+      "required_skill": "Design",
+      "duration": 2,
+      "resource_demand": 2.7,
+      "priority": 3.0,
+      "unmet_penalty": 1396.95,
+      "predecessors": [
+        "T_017",
+        "T_018",
+        "T_019"
+      ],
+      "release_date": 9,
+      "due_date": 60
+    },
+    "T_021": {
+      "id": "T_021",
+      "name": "Task_21",
+      "required_skill": "DevOps",
+      "duration": 2,
+      "resource_demand": 3.5,
+      "priority": 1.0,
+      "unmet_penalty": 357.58,
+      "predecessors": [
+        "T_001",
+        "T_005",
+        "T_020"
+      ],
+      "release_date": 10,
+      "due_date": 46
+    },
+    "T_022": {
+      "id": "T_022",
+      "name": "Task_22",
+      "required_skill": "Design",
+      "duration": 2,
+      "resource_demand": 1.12,
+      "priority": 5.0,
+      "unmet_penalty": 1812.0,
+      "predecessors": [
+        "T_007",
+        "T_008",
+        "T_021"
+      ],
+      "release_date": 6,
+      "due_date": 36
+    },
+    "T_023": {
+      "id": "T_023",
+      "name": "Task_23",
+      "required_skill": "Engineering",
+      "duration": 1,
+      "resource_demand": 1.56,
+      "priority": 3.0,
+      "unmet_penalty": 1160.49,
+      "predecessors": [
+        "T_013",
+        "T_014",
+        "T_022"
+      ],
+      "release_date": 6,
+      "due_date": 58
+    },
+    "T_024": {
+      "id": "T_024",
+      "name": "Task_24",
+      "required_skill": "Operations",
+      "duration": 3,
+      "resource_demand": 2.86,
+      "priority": 2.0,
+      "unmet_penalty": 1055.98,
+      "predecessors": [
+        "T_001",
+        "T_012"
+      ],
+      "release_date": 11,
+      "due_date": 26
+    },
+    "T_025": {
+      "id": "T_025",
+      "name": "Task_25",
+      "required_skill": "QualityAssurance",
+      "duration": 4,
+      "resource_demand": 3.88,
+      "priority": 1.0,
+      "unmet_penalty": 575.36,
+      "predecessors": [
+        "T_006",
+        "T_020"
+      ],
+      "release_date": 10,
+      "due_date": 42
+    },
+    "T_026": {
+      "id": "T_026",
+      "name": "Task_26",
+      "required_skill": "Engineering",
+      "duration": 2,
+      "resource_demand": 3.6,
+      "priority": 2.0,
+      "unmet_penalty": 618.54,
+      "predecessors": [
+        "T_003",
+        "T_014"
+      ],
+      "release_date": 0,
+      "due_date": 23
+    },
+    "T_027": {
+      "id": "T_027",
+      "name": "Task_27",
+      "required_skill": "Operations",
+      "duration": 3,
+      "resource_demand": 1.42,
+      "priority": 2.0,
+      "unmet_penalty": 1141.74,
+      "predecessors": [
+        "T_010",
+        "T_022",
+        "T_025"
+      ],
+      "release_date": 14,
+      "due_date": 60
+    },
+    "T_028": {
+      "id": "T_028",
+      "name": "Task_28",
+      "required_skill": "Operations",
+      "duration": 3,
+      "resource_demand": 3.06,
+      "priority": 2.0,
+      "unmet_penalty": 1113.85,
+      "predecessors": [
+        "T_014",
+        "T_018",
+        "T_021"
+      ],
+      "release_date": 0,
+      "due_date": 48
+    },
+    "T_029": {
+      "id": "T_029",
+      "name": "Task_29",
+      "required_skill": "Operations",
+      "duration": 2,
+      "resource_demand": 2.5,
+      "priority": 1.0,
+      "unmet_penalty": 578.39,
+      "predecessors": [
+        "T_020",
+        "T_022",
+        "T_024"
+      ],
+      "release_date": 9,
+      "due_date": 29
+    },
+    "T_030": {
+      "id": "T_030",
+      "name": "Task_30",
+      "required_skill": "DevOps",
+      "duration": 1,
+      "resource_demand": 3.72,
+      "priority": 2.0,
+      "unmet_penalty": 900.13,
+      "predecessors": [],
+      "release_date": 6,
+      "due_date": 32
+    },
+    "T_031": {
+      "id": "T_031",
+      "name": "Task_31",
+      "required_skill": "DevOps",
+      "duration": 3,
+      "resource_demand": 2.0,
+      "priority": 3.0,
+      "unmet_penalty": 1014.5,
+      "predecessors": [
+        "T_024",
+        "T_025",
+        "T_028"
+      ],
+      "release_date": 4,
+      "due_date": 16
+    },
+    "T_032": {
+      "id": "T_032",
+      "name": "Task_32",
+      "required_skill": "DevOps",
+      "duration": 1,
+      "resource_demand": 3.86,
+      "priority": 3.0,
+      "unmet_penalty": 1344.66,
+      "predecessors": [
+        "T_023",
+        "T_028",
+        "T_031"
+      ],
+      "release_date": 13,
+      "due_date": 60
+    },
+    "T_033": {
+      "id": "T_033",
+      "name": "Task_33",
+      "required_skill": "DevOps",
+      "duration": 4,
+      "resource_demand": 3.72,
+      "priority": 2.0,
+      "unmet_penalty": 930.19,
+      "predecessors": [
+        "T_007",
+        "T_009",
+        "T_018"
+      ],
+      "release_date": 14,
+      "due_date": 50
+    },
+    "T_034": {
+      "id": "T_034",
+      "name": "Task_34",
+      "required_skill": "Engineering",
+      "duration": 2,
+      "resource_demand": 3.02,
+      "priority": 1.0,
+      "unmet_penalty": 401.92,
+      "predecessors": [
+        "T_025",
+        "T_029",
+        "T_030"
+      ],
+      "release_date": 11,
+      "due_date": 60
+    },
+    "T_035": {
+      "id": "T_035",
+      "name": "Task_35",
+      "required_skill": "Engineering",
+      "duration": 2,
+      "resource_demand": 2.59,
+      "priority": 2.0,
+      "unmet_penalty": 613.1,
+      "predecessors": [
+        "T_028",
+        "T_029",
+        "T_033"
+      ],
+      "release_date": 8,
+      "due_date": 11
+    },
+    "T_036": {
+      "id": "T_036",
+      "name": "Task_36",
+      "required_skill": "Operations",
+      "duration": 3,
+      "resource_demand": 3.91,
+      "priority": 3.0,
+      "unmet_penalty": 1132.95,
+      "predecessors": [
+        "T_028",
+        "T_030",
+        "T_033"
+      ],
+      "release_date": 3,
+      "due_date": 42
+    },
+    "T_037": {
+      "id": "T_037",
+      "name": "Task_37",
+      "required_skill": "Engineering",
+      "duration": 3,
+      "resource_demand": 3.14,
+      "priority": 4.0,
+      "unmet_penalty": 1609.85,
+      "predecessors": [
+        "T_015",
+        "T_020",
+        "T_021"
+      ],
+      "release_date": 14,
+      "due_date": 22
+    },
+    "T_038": {
+      "id": "T_038",
+      "name": "Task_38",
+      "required_skill": "Operations",
+      "duration": 2,
+      "resource_demand": 3.98,
+      "priority": 1.0,
+      "unmet_penalty": 531.03,
+      "predecessors": [
+        "T_025",
+        "T_035",
+        "T_037"
+      ],
+      "release_date": 3,
+      "due_date": 54
+    },
+    "T_039": {
+      "id": "T_039",
+      "name": "Task_39",
+      "required_skill": "QualityAssurance",
+      "duration": 3,
+      "resource_demand": 1.79,
+      "priority": 1.0,
+      "unmet_penalty": 334.56,
+      "predecessors": [
+        "T_033",
+        "T_037",
+        "T_038"
+      ],
+      "release_date": 13,
+      "due_date": 23
+    },
+    "T_040": {
+      "id": "T_040",
+      "name": "Task_40",
+      "required_skill": "DevOps",
+      "duration": 1,
+      "resource_demand": 2.97,
+      "priority": 2.0,
+      "unmet_penalty": 656.41,
+      "predecessors": [
+        "T_026",
+        "T_031",
+        "T_033"
+      ],
+      "release_date": 6,
+      "due_date": 52
+    },
+    "T_041": {
+      "id": "T_041",
+      "name": "Task_41",
+      "required_skill": "Design",
+      "duration": 4,
+      "resource_demand": 3.61,
+      "priority": 1.0,
+      "unmet_penalty": 466.86,
+      "predecessors": [
+        "T_035",
+        "T_037",
+        "T_040"
+      ],
+      "release_date": 0,
+      "due_date": 10
+    },
+    "T_042": {
+      "id": "T_042",
+      "name": "Task_42",
+      "required_skill": "DevOps",
+      "duration": 4,
+      "resource_demand": 3.76,
+      "priority": 3.0,
+      "unmet_penalty": 929.33,
+      "predecessors": [
+        "T_030",
+        "T_039",
+        "T_041"
+      ],
+      "release_date": 4,
+      "due_date": 37
+    },
+    "T_043": {
+      "id": "T_043",
+      "name": "Task_43",
+      "required_skill": "Engineering",
+      "duration": 4,
+      "resource_demand": 3.0,
+      "priority": 5.0,
+      "unmet_penalty": 1894.98,
+      "predecessors": [
+        "T_027",
+        "T_031",
+        "T_032"
+      ],
+      "release_date": 10,
+      "due_date": 46
+    },
+    "T_044": {
+      "id": "T_044",
+      "name": "Task_44",
+      "required_skill": "Operations",
+      "duration": 3,
+      "resource_demand": 3.92,
+      "priority": 4.0,
+      "unmet_penalty": 1700.3,
+      "predecessors": [
+        "T_014",
+        "T_029",
+        "T_034"
+      ],
+      "release_date": 0,
+      "due_date": 39
+    },
+    "T_045": {
+      "id": "T_045",
+      "name": "Task_45",
+      "required_skill": "DevOps",
+      "duration": 1,
+      "resource_demand": 1.82,
+      "priority": 5.0,
+      "unmet_penalty": 2809.48,
+      "predecessors": [
+        "T_028",
+        "T_032",
+        "T_040"
+      ],
+      "release_date": 7,
+      "due_date": 58
+    },
+    "T_046": {
+      "id": "T_046",
+      "name": "Task_46",
+      "required_skill": "Engineering",
+      "duration": 3,
+      "resource_demand": 3.81,
+      "priority": 5.0,
+      "unmet_penalty": 2298.62,
+      "predecessors": [
+        "T_025",
+        "T_030",
+        "T_039"
+      ],
+      "release_date": 4,
+      "due_date": 24
+    },
+    "T_047": {
+      "id": "T_047",
+      "name": "Task_47",
+      "required_skill": "Design",
+      "duration": 3,
+      "resource_demand": 1.08,
+      "priority": 2.0,
+      "unmet_penalty": 878.23,
+      "predecessors": [
+        "T_035",
+        "T_038",
+        "T_046"
+      ],
+      "release_date": 3,
+      "due_date": 13
+    },
+    "T_048": {
+      "id": "T_048",
+      "name": "Task_48",
+      "required_skill": "Engineering",
+      "duration": 2,
+      "resource_demand": 1.7,
+      "priority": 4.0,
+      "unmet_penalty": 1999.26,
+      "predecessors": [
+        "T_008",
+        "T_022",
+        "T_031"
+      ],
+      "release_date": 3,
+      "due_date": 29
+    },
+    "T_049": {
+      "id": "T_049",
+      "name": "Task_49",
+      "required_skill": "Design",
+      "duration": 3,
+      "resource_demand": 1.32,
+      "priority": 4.0,
+      "unmet_penalty": 2208.84,
+      "predecessors": [
+        "T_035",
+        "T_037",
+        "T_048"
+      ],
+      "release_date": 3,
+      "due_date": 39
+    },
+    "T_050": {
+      "id": "T_050",
+      "name": "Task_50",
+      "required_skill": "DevOps",
+      "duration": 4,
+      "resource_demand": 1.74,
+      "priority": 5.0,
+      "unmet_penalty": 1874.51,
+      "predecessors": [
+        "T_035",
+        "T_037",
+        "T_041"
+      ],
+      "release_date": 9,
+      "due_date": 19
+    },
+    "T_051": {
+      "id": "T_051",
+      "name": "Task_51",
+      "required_skill": "Design",
+      "duration": 2,
+      "resource_demand": 1.22,
+      "priority": 3.0,
+      "unmet_penalty": 1300.74,
+      "predecessors": [
+        "T_044",
+        "T_047",
+        "T_048"
+      ],
+      "release_date": 14,
+      "due_date": 60
+    },
+    "T_052": {
+      "id": "T_052",
+      "name": "Task_52",
+      "required_skill": "Design",
+      "duration": 2,
+      "resource_demand": 3.77,
+      "priority": 3.0,
+      "unmet_penalty": 1159.03,
+      "predecessors": [
+        "T_043",
+        "T_045",
+        "T_049"
+      ],
+      "release_date": 0,
+      "due_date": 4
+    },
+    "T_053": {
+      "id": "T_053",
+      "name": "Task_53",
+      "required_skill": "Design",
+      "duration": 1,
+      "resource_demand": 1.36,
+      "priority": 5.0,
+      "unmet_penalty": 1911.86,
+      "predecessors": [
+        "T_045",
+        "T_046",
+        "T_048"
+      ],
+      "release_date": 3,
+      "due_date": 25
+    },
+    "T_054": {
+      "id": "T_054",
+      "name": "Task_54",
+      "required_skill": "DevOps",
+      "duration": 3,
+      "resource_demand": 1.62,
+      "priority": 3.0,
+      "unmet_penalty": 1406.82,
+      "predecessors": [
+        "T_040",
+        "T_050",
+        "T_052"
+      ],
+      "release_date": 7,
+      "due_date": 14
+    },
+    "T_055": {
+      "id": "T_055",
+      "name": "Task_55",
+      "required_skill": "Operations",
+      "duration": 3,
+      "resource_demand": 1.48,
+      "priority": 2.0,
+      "unmet_penalty": 1074.52,
+      "predecessors": [
+        "T_041",
+        "T_047",
+        "T_048"
+      ],
+      "release_date": 9,
+      "due_date": 25
+    },
+    "T_056": {
+      "id": "T_056",
+      "name": "Task_56",
+      "required_skill": "Operations",
+      "duration": 1,
+      "resource_demand": 2.93,
+      "priority": 3.0,
+      "unmet_penalty": 1726.8,
+      "predecessors": [
+        "T_048",
+        "T_051",
+        "T_053"
+      ],
+      "release_date": 4,
+      "due_date": 43
+    },
+    "T_057": {
+      "id": "T_057",
+      "name": "Task_57",
+      "required_skill": "Engineering",
+      "duration": 3,
+      "resource_demand": 1.99,
+      "priority": 4.0,
+      "unmet_penalty": 1424.03,
+      "predecessors": [
+        "T_048",
+        "T_049",
+        "T_054"
+      ],
+      "release_date": 9,
+      "due_date": 16
+    },
+    "T_058": {
+      "id": "T_058",
+      "name": "Task_58",
+      "required_skill": "DevOps",
+      "duration": 1,
+      "resource_demand": 1.57,
+      "priority": 1.0,
+      "unmet_penalty": 322.99,
+      "predecessors": [
+        "T_046",
+        "T_049",
+        "T_056"
+      ],
+      "release_date": 14,
+      "due_date": 55
+    },
+    "T_059": {
+      "id": "T_059",
+      "name": "Task_59",
+      "required_skill": "Design",
+      "duration": 1,
+      "resource_demand": 2.94,
+      "priority": 2.0,
+      "unmet_penalty": 863.61,
+      "predecessors": [
+        "T_053",
+        "T_054",
+        "T_058"
+      ],
+      "release_date": 7,
+      "due_date": 16
+    },
+    "T_060": {
+      "id": "T_060",
+      "name": "Task_60",
+      "required_skill": "Design",
+      "duration": 2,
+      "resource_demand": 3.16,
+      "priority": 2.0,
+      "unmet_penalty": 947.42,
+      "predecessors": [
+        "T_051",
+        "T_058",
+        "T_059"
+      ],
+      "release_date": 13,
+      "due_date": 18
+    },
+    "T_061": {
+      "id": "T_061",
+      "name": "Task_61",
+      "required_skill": "Engineering",
+      "duration": 2,
+      "resource_demand": 2.49,
+      "priority": 2.0,
+      "unmet_penalty": 936.36,
+      "predecessors": [
+        "T_053",
+        "T_055",
+        "T_057"
+      ],
+      "release_date": 5,
+      "due_date": 11
+    },
+    "T_062": {
+      "id": "T_062",
+      "name": "Task_62",
+      "required_skill": "DevOps",
+      "duration": 3,
+      "resource_demand": 3.55,
+      "priority": 1.0,
+      "unmet_penalty": 558.23,
+      "predecessors": [
+        "T_033",
+        "T_038",
+        "T_042"
+      ],
+      "release_date": 1,
+      "due_date": 54
+    },
+    "T_063": {
+      "id": "T_063",
+      "name": "Task_63",
+      "required_skill": "Operations",
+      "duration": 3,
+      "resource_demand": 3.1,
+      "priority": 1.0,
+      "unmet_penalty": 502.92,
+      "predecessors": [
+        "T_047",
+        "T_052",
+        "T_062"
+      ],
+      "release_date": 11,
+      "due_date": 29
+    },
+    "T_064": {
+      "id": "T_064",
+      "name": "Task_64",
+      "required_skill": "Operations",
+      "duration": 2,
+      "resource_demand": 2.66,
+      "priority": 5.0,
+      "unmet_penalty": 2016.06,
+      "predecessors": [
+        "T_053",
+        "T_054",
+        "T_056"
+      ],
+      "release_date": 6,
+      "due_date": 30
+    },
+    "T_065": {
+      "id": "T_065",
+      "name": "Task_65",
+      "required_skill": "QualityAssurance",
+      "duration": 1,
+      "resource_demand": 1.96,
+      "priority": 2.0,
+      "unmet_penalty": 973.09,
+      "predecessors": [
+        "T_059",
+        "T_061",
+        "T_064"
+      ],
+      "release_date": 14,
+      "due_date": 60
+    },
+    "T_066": {
+      "id": "T_066",
+      "name": "Task_66",
+      "required_skill": "Engineering",
+      "duration": 3,
+      "resource_demand": 3.86,
+      "priority": 2.0,
+      "unmet_penalty": 969.08,
+      "predecessors": [
+        "T_053",
+        "T_056",
+        "T_062"
+      ],
+      "release_date": 9,
+      "due_date": 40
+    },
+    "T_067": {
+      "id": "T_067",
+      "name": "Task_67",
+      "required_skill": "QualityAssurance",
+      "duration": 2,
+      "resource_demand": 1.78,
+      "priority": 2.0,
+      "unmet_penalty": 1156.71,
+      "predecessors": [
+        "T_053",
+        "T_055",
+        "T_065"
+      ],
+      "release_date": 4,
+      "due_date": 28
+    },
+    "T_068": {
+      "id": "T_068",
+      "name": "Task_68",
+      "required_skill": "Design",
+      "duration": 2,
+      "resource_demand": 1.98,
+      "priority": 2.0,
+      "unmet_penalty": 1161.36,
+      "predecessors": [
+        "T_050",
+        "T_057",
+        "T_062"
+      ],
+      "release_date": 11,
+      "due_date": 32
+    },
+    "T_069": {
+      "id": "T_069",
+      "name": "Task_69",
+      "required_skill": "Engineering",
+      "duration": 2,
+      "resource_demand": 1.4,
+      "priority": 3.0,
+      "unmet_penalty": 1029.02,
+      "predecessors": [
+        "T_061",
+        "T_065",
+        "T_067"
+      ],
+      "release_date": 2,
+      "due_date": 9
+    },
+    "T_070": {
+      "id": "T_070",
+      "name": "Task_70",
+      "required_skill": "Engineering",
+      "duration": 3,
+      "resource_demand": 1.43,
+      "priority": 5.0,
+      "unmet_penalty": 2282.83,
+      "predecessors": [
+        "T_046",
+        "T_049",
+        "T_062"
+      ],
+      "release_date": 10,
+      "due_date": 21
+    },
+    "T_071": {
+      "id": "T_071",
+      "name": "Task_71",
+      "required_skill": "DevOps",
+      "duration": 4,
+      "resource_demand": 2.44,
+      "priority": 3.0,
+      "unmet_penalty": 1117.34,
+      "predecessors": [
+        "T_044",
+        "T_047",
+        "T_059"
+      ],
+      "release_date": 3,
+      "due_date": 28
+    },
+    "T_072": {
+      "id": "T_072",
+      "name": "Task_72",
+      "required_skill": "Operations",
+      "duration": 4,
+      "resource_demand": 2.45,
+      "priority": 2.0,
+      "unmet_penalty": 1170.63,
+      "predecessors": [
+        "T_067",
+        "T_068",
+        "T_070"
+      ],
+      "release_date": 14,
+      "due_date": 51
+    },
+    "T_073": {
+      "id": "T_073",
+      "name": "Task_73",
+      "required_skill": "DevOps",
+      "duration": 4,
+      "resource_demand": 1.84,
+      "priority": 5.0,
+      "unmet_penalty": 1676.22,
+      "predecessors": [
+        "T_056",
+        "T_059",
+        "T_060"
+      ],
+      "release_date": 7,
+      "due_date": 13
+    },
+    "T_074": {
+      "id": "T_074",
+      "name": "Task_74",
+      "required_skill": "DevOps",
+      "duration": 3,
+      "resource_demand": 2.44,
+      "priority": 5.0,
+      "unmet_penalty": 2710.38,
+      "predecessors": [
+        "T_065",
+        "T_068",
+        "T_069"
+      ],
+      "release_date": 14,
+      "due_date": 60
+    },
+    "T_075": {
+      "id": "T_075",
+      "name": "Task_75",
+      "required_skill": "Design",
+      "duration": 4,
+      "resource_demand": 2.56,
+      "priority": 3.0,
+      "unmet_penalty": 1064.61,
+      "predecessors": [
+        "T_067",
+        "T_068",
+        "T_071"
+      ],
+      "release_date": 12,
+      "due_date": 32
+    },
+    "T_076": {
+      "id": "T_076",
+      "name": "Task_76",
+      "required_skill": "QualityAssurance",
+      "duration": 3,
+      "resource_demand": 1.41,
+      "priority": 1.0,
+      "unmet_penalty": 371.06,
+      "predecessors": [
+        "T_059",
+        "T_065",
+        "T_072"
+      ],
+      "release_date": 0,
+      "due_date": 11
+    },
+    "T_077": {
+      "id": "T_077",
+      "name": "Task_77",
+      "required_skill": "Design",
+      "duration": 2,
+      "resource_demand": 2.23,
+      "priority": 5.0,
+      "unmet_penalty": 2634.46,
+      "predecessors": [
+        "T_067",
+        "T_069",
+        "T_071"
+      ],
+      "release_date": 2,
+      "due_date": 36
+    },
+    "T_078": {
+      "id": "T_078",
+      "name": "Task_78",
+      "required_skill": "DevOps",
+      "duration": 1,
+      "resource_demand": 3.74,
+      "priority": 3.0,
+      "unmet_penalty": 1479.38,
+      "predecessors": [
+        "T_069",
+        "T_071",
+        "T_075"
+      ],
+      "release_date": 9,
+      "due_date": 58
+    },
+    "T_079": {
+      "id": "T_079",
+      "name": "Task_79",
+      "required_skill": "Operations",
+      "duration": 2,
+      "resource_demand": 3.62,
+      "priority": 4.0,
+      "unmet_penalty": 1389.02,
+      "predecessors": [
+        "T_068",
+        "T_074",
+        "T_075"
+      ],
+      "release_date": 4,
+      "due_date": 60
+    },
+    "T_080": {
+      "id": "T_080",
+      "name": "Task_80",
+      "required_skill": "Engineering",
+      "duration": 4,
+      "resource_demand": 2.59,
+      "priority": 1.0,
+      "unmet_penalty": 409.23,
+      "predecessors": [
+        "T_050",
+        "T_063",
+        "T_074"
+      ],
+      "release_date": 0,
+      "due_date": 45
+    },
+    "T_081": {
+      "id": "T_081",
+      "name": "Task_81",
+      "required_skill": "DevOps",
+      "duration": 3,
+      "resource_demand": 2.0,
+      "priority": 4.0,
+      "unmet_penalty": 1288.43,
+      "predecessors": [
+        "T_066",
+        "T_071",
+        "T_074"
+      ],
+      "release_date": 12,
+      "due_date": 23
+    },
+    "T_082": {
+      "id": "T_082",
+      "name": "Task_82",
+      "required_skill": "DevOps",
+      "duration": 3,
+      "resource_demand": 2.22,
+      "priority": 5.0,
+      "unmet_penalty": 2084.51,
+      "predecessors": [
+        "T_069",
+        "T_070",
+        "T_076"
+      ],
+      "release_date": 3,
+      "due_date": 52
+    },
+    "T_083": {
+      "id": "T_083",
+      "name": "Task_83",
+      "required_skill": "DevOps",
+      "duration": 1,
+      "resource_demand": 1.13,
+      "priority": 4.0,
+      "unmet_penalty": 2128.83,
+      "predecessors": [
+        "T_071",
+        "T_074",
+        "T_077"
+      ],
+      "release_date": 6,
+      "due_date": 56
+    },
+    "T_084": {
+      "id": "T_084",
+      "name": "Task_84",
+      "required_skill": "QualityAssurance",
+      "duration": 4,
+      "resource_demand": 3.28,
+      "priority": 3.0,
+      "unmet_penalty": 1209.3,
+      "predecessors": [
+        "T_081",
+        "T_082",
+        "T_083"
+      ],
+      "release_date": 3,
+      "due_date": 19
+    },
+    "T_085": {
+      "id": "T_085",
+      "name": "Task_85",
+      "required_skill": "DevOps",
+      "duration": 1,
+      "resource_demand": 2.51,
+      "priority": 5.0,
+      "unmet_penalty": 2486.84,
+      "predecessors": [
+        "T_071",
+        "T_079",
+        "T_082"
+      ],
+      "release_date": 7,
+      "due_date": 24
+    },
+    "T_086": {
+      "id": "T_086",
+      "name": "Task_86",
+      "required_skill": "Engineering",
+      "duration": 3,
+      "resource_demand": 3.61,
+      "priority": 2.0,
+      "unmet_penalty": 1150.17,
+      "predecessors": [
+        "T_065",
+        "T_073",
+        "T_077"
+      ],
+      "release_date": 11,
+      "due_date": 60
+    },
+    "T_087": {
+      "id": "T_087",
+      "name": "Task_87",
+      "required_skill": "QualityAssurance",
+      "duration": 4,
+      "resource_demand": 2.79,
+      "priority": 2.0,
+      "unmet_penalty": 818.24,
+      "predecessors": [
+        "T_077",
+        "T_081",
+        "T_082"
+      ],
+      "release_date": 6,
+      "due_date": 39
+    },
+    "T_088": {
+      "id": "T_088",
+      "name": "Task_88",
+      "required_skill": "QualityAssurance",
+      "duration": 1,
+      "resource_demand": 2.06,
+      "priority": 5.0,
+      "unmet_penalty": 2306.1,
+      "predecessors": [
+        "T_069",
+        "T_070",
+        "T_079"
+      ],
+      "release_date": 6,
+      "due_date": 25
+    },
+    "T_089": {
+      "id": "T_089",
+      "name": "Task_89",
+      "required_skill": "QualityAssurance",
+      "duration": 3,
+      "resource_demand": 2.11,
+      "priority": 4.0,
+      "unmet_penalty": 2354.18,
+      "predecessors": [
+        "T_079",
+        "T_084",
+        "T_088"
+      ],
+      "release_date": 0,
+      "due_date": 41
+    },
+    "T_090": {
+      "id": "T_090",
+      "name": "Task_90",
+      "required_skill": "QualityAssurance",
+      "duration": 1,
+      "resource_demand": 1.54,
+      "priority": 3.0,
+      "unmet_penalty": 1278.66,
+      "predecessors": [
+        "T_086",
+        "T_087",
+        "T_089"
+      ],
+      "release_date": 4,
+      "due_date": 10
+    },
+    "T_091": {
+      "id": "T_091",
+      "name": "Task_91",
+      "required_skill": "DevOps",
+      "duration": 4,
+      "resource_demand": 3.4,
+      "priority": 4.0,
+      "unmet_penalty": 1980.62,
+      "predecessors": [
+        "T_067",
+        "T_082",
+        "T_085"
+      ],
+      "release_date": 13,
+      "due_date": 42
+    },
+    "T_092": {
+      "id": "T_092",
+      "name": "Task_92",
+      "required_skill": "QualityAssurance",
+      "duration": 2,
+      "resource_demand": 2.23,
+      "priority": 2.0,
+      "unmet_penalty": 1017.56,
+      "predecessors": [
+        "T_082",
+        "T_089",
+        "T_091"
+      ],
+      "release_date": 8,
+      "due_date": 42
+    },
+    "T_093": {
+      "id": "T_093",
+      "name": "Task_93",
+      "required_skill": "Design",
+      "duration": 2,
+      "resource_demand": 1.79,
+      "priority": 3.0,
+      "unmet_penalty": 1618.14,
+      "predecessors": [
+        "T_085",
+        "T_087",
+        "T_088"
+      ],
+      "release_date": 8,
+      "due_date": 16
+    },
+    "T_094": {
+      "id": "T_094",
+      "name": "Task_94",
+      "required_skill": "Operations",
+      "duration": 2,
+      "resource_demand": 3.11,
+      "priority": 4.0,
+      "unmet_penalty": 1212.17,
+      "predecessors": [
+        "T_084",
+        "T_087",
+        "T_089"
+      ],
+      "release_date": 3,
+      "due_date": 60
+    },
+    "T_095": {
+      "id": "T_095",
+      "name": "Task_95",
+      "required_skill": "Engineering",
+      "duration": 1,
+      "resource_demand": 2.1,
+      "priority": 5.0,
+      "unmet_penalty": 1627.26,
+      "predecessors": [
+        "T_087",
+        "T_093",
+        "T_094"
+      ],
+      "release_date": 9,
+      "due_date": 60
+    },
+    "T_096": {
+      "id": "T_096",
+      "name": "Task_96",
+      "required_skill": "DevOps",
+      "duration": 2,
+      "resource_demand": 1.87,
+      "priority": 2.0,
+      "unmet_penalty": 618.83,
+      "predecessors": [
+        "T_075",
+        "T_086",
+        "T_095"
+      ],
+      "release_date": 5,
+      "due_date": 50
+    },
+    "T_097": {
+      "id": "T_097",
+      "name": "Task_97",
+      "required_skill": "Operations",
+      "duration": 1,
+      "resource_demand": 3.08,
+      "priority": 3.0,
+      "unmet_penalty": 1214.46,
+      "predecessors": [
+        "T_092",
+        "T_094",
+        "T_096"
+      ],
+      "release_date": 12,
+      "due_date": 20
+    },
+    "T_098": {
+      "id": "T_098",
+      "name": "Task_98",
+      "required_skill": "DevOps",
+      "duration": 3,
+      "resource_demand": 1.63,
+      "priority": 5.0,
+      "unmet_penalty": 2473.65,
+      "predecessors": [
+        "T_085",
+        "T_087",
+        "T_097"
+      ],
+      "release_date": 13,
+      "due_date": 60
+    },
+    "T_099": {
+      "id": "T_099",
+      "name": "Task_99",
+      "required_skill": "QualityAssurance",
+      "duration": 1,
+      "resource_demand": 2.77,
+      "priority": 5.0,
+      "unmet_penalty": 2679.59,
+      "predecessors": [
+        "T_093",
+        "T_095",
+        "T_098"
+      ],
+      "release_date": 8,
+      "due_date": 27
+    },
+    "T_100": {
+      "id": "T_100",
+      "name": "Task_100",
+      "required_skill": "Engineering",
+      "duration": 2,
+      "resource_demand": 1.77,
+      "priority": 4.0,
+      "unmet_penalty": 1811.4,
+      "predecessors": [
+        "T_094",
+        "T_097",
+        "T_098"
+      ],
+      "release_date": 13,
+      "due_date": 34
+    }
+  },
+  "scenario_name": "baseline",
+  "metadata": {
+    "n_resources": 200,
+    "n_tasks": 100,
+    "n_periods": 60,
+    "seed": 42,
+    "precedence_density": 0.2
+  }
+}
