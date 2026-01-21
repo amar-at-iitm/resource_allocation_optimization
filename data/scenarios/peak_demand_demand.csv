@@ -1,0 +1,16 @@
+task_id,task_name,required_skill,duration,resource_demand,priority,unmet_penalty
+T_001,Task_1,Engineering,2,4.05,3.0,1588.5
+T_002,Task_2,DevOps,2,4.02,3.0,1173.56
+T_003,Task_3,Design,3,3.34,2.0,1112.04
+T_004,Task_4,QualityAssurance,3,4.49,2.0,934.22
+T_005,Task_5,Operations,1,1.6,1.0,327.01
+T_006,Task_6,Engineering,2,3.51,4.0,1657.23
+T_007,Task_7,Operations,2,4.65,5.0,1898.8
+T_008,Task_8,Operations,1,2.42,3.0,1175.36
+T_009,Task_9,Design,1,1.88,4.0,1698.97
+T_010,Task_10,Design,2,4.16,2.0,613.68
+T_011,Task_11,QualityAssurance,3,3.84,2.0,863.35
+T_012,Task_12,DevOps,1,5.62,1.0,369.06
+T_013,Task_13,Engineering,2,3.46,1.0,597.71
+T_014,Task_14,Operations,3,2.06,2.0,1098.67
+T_015,Task_15,DevOps,3,3.78,1.0,508.28
