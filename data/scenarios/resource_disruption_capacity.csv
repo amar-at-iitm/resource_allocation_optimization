@@ -1,0 +1,11 @@
+resource_id,name,skills,capacity_per_period,max_overtime_per_period,regular_cost
+R_001,Resource_1,Engineering;QualityAssurance;DevOps,8.0,2.0,138.54
+R_002,Resource_2,QualityAssurance;Engineering;Design,8.0,2.0,102.25
+R_003,Resource_3,Design;Engineering;DevOps,8.0,2.0,113.28
+R_004,Resource_4,DevOps;QualityAssurance;Operations,8.0,2.0,101.27
+R_005,Resource_5,Operations;Engineering;QualityAssurance;Design,4.0,1.0,82.63
+R_006,Resource_6,Design;DevOps,8.0,2.0,102.23
+R_007,Resource_7,Design,7.5,1.88,106.23
+R_008,Resource_8,Engineering;QualityAssurance;DevOps;Operations,8.5,2.12,97.3
+R_009,Resource_9,Operations,4.0,1.0,119.89
+R_010,Resource_10,Engineering;QualityAssurance,8.0,2.0,120.1
