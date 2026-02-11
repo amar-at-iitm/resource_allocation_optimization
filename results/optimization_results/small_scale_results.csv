@@ -1,0 +1,3 @@
+instance_id,scale,model_type,seed,num_resources,num_tasks,num_periods,solver_status,is_feasible,objective_cost,solve_time_seconds,num_variables,num_constraints,assigned_tasks,unmet_tasks,overtime_hours,idle_hours,utilization_percent,demand_satisfaction_percent,makespan_periods
+small_seed42,small,MultiPeriodScheduling,42,10,15,7,OPTIMAL,True,8942.1,0.012930631637573242,1310,556,8.0,7.0,0.0,518.06,7.49,53.33,7.0
+small_sp_seed42,small,DeterministicSinglePeriod,42,10,15,1,OPTIMAL,True,3749.79,0.1227269172668457,185,25,15.0,0.0,0.0,44.52,44.35,100.0,1.0
