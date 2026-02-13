@@ -1,0 +1,4 @@
+instance_id,scale,seed,algorithm,status,objective_cost,runtime_seconds,optimality_gap_percent,scheduled_tasks,unmet_tasks,utilization_percent
+medium_comp_seed42,medium,42,HiGHS_Exact,OPTIMAL,26841.335507720585,6.082353830337524,0.0,29.0,11.0,1.69
+medium_comp_seed42,medium,42,GeneticAlgorithm,HEURISTIC_FEASIBLE,26992.05,0.9334,0.56,29.0,11.0,1.69
+medium_comp_seed42,medium,42,SimulatedAnnealing,SA_FEASIBLE,27309.04,0.336,1.74,29.0,11.0,1.69
