@@ -1,0 +1,7 @@
+scenario,model_type,solver_status,total_cost,solve_time_seconds,demand_satisfaction_percent,total_overtime_hours,total_idle_hours,unmet_tasks
+Scenario_A_Normal,Deterministic_PerfectInformation,OPTIMAL,518.20461875,0.03,100.0,0.0,311.77,0.0
+Scenario_B_HighDemand,Deterministic_PerfectInformation,OPTIMAL,577.8549375000002,0.036,100.0,0.0,305.7,0.0
+Scenario_C_Disruption,Deterministic_PerfectInformation,OPTIMAL,569.7434250000006,0.031,100.0,0.0,283.77,0.0
+Scenario_D_Combined,Deterministic_PerfectInformation,OPTIMAL,577.8549375000002,0.048,100.0,0.0,277.7,0.0
+MultiScenario_Expected,TwoStageStochastic,OPTIMAL,424.0212953124974,15.655,100.0,0.0,0.0,0.0
+WorstCase_high_demand,RobustMinMax,OPTIMAL,451.0183250000026,10.06,100.0,0.0,0.0,0.0
